@@ -1,14 +1,12 @@
-# RevEng — Cold Outreach Testing
+# RevEng â€” Cold Outreach Testing
 
 Simple repo for storing, rendering, and sanity-checking cold outreach email sequences before they go out.
 
 ## Structure
 
-- sequences/  — each outreach cadence in its own folder
-- snippets/   — reusable blocks (signatures, CTAs)
-- test-data/  — sample lead data
-- scripts/    — render, spam-check, link-check
-- previews/   — rendered emails land here (gitignored)
+- sequences/  â€” each outreach cadence in its own folder
+- test-data/  â€” sample lead data
+- previews/   â€” rendered emails land here (gitignored)
 
 ## Setup
 
