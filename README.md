@@ -5,7 +5,7 @@ Simple repo for storing, rendering, and sanity-checking cold outreach email sequ
 ## Structure
 
 - sequences/  — each outreach cadence in its own folder
-- test-data/  — sample lead data
+- test-data/  — A/B Test data and findings
 - previews/   — rendered emails land here (gitignored)
 
 ## Setup
@@ -14,6 +14,6 @@ Simple repo for storing, rendering, and sanity-checking cold outreach email sequ
 
 ## Usage
 
-    python scripts/render.py sequences/saas-founders-q2
-    python scripts/spam-check.py sequences/saas-founders-q2/step-1-intro.md
-    python scripts/link-check.py sequences/saas-founders-q2/step-1-intro.md
+    python scripts/render.py sequences/generate.py-q2
+    python scripts/spam-check.py sequences/generate.py-q2/step-1-intro.md
+    python scripts/link-check.py sequences/generate.py-q2/step-1-intro.md
